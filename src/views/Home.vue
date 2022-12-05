@@ -18,8 +18,8 @@
       <div class="flex flex-row justify-between">
       <span class="mt-2.5">Name</span>
         <div class="flex flex-col">
-          <span class="cursor-pointer" @click="sort(1)">asc</span>
-          <span class="cursor-pointer" @click="sort(-1)">dsc</span>
+          <span class="cursor-pointer" @click="sort(1)"><font-awesome-icon icon="fa-solid fa-arrow-up-wide-short" /></span>
+          <span class="cursor-pointer" @click="sort(-1)"><font-awesome-icon icon="fa-solid fa-arrow-down-wide-short" /></span>
         </div>
       </div>
     </th>
@@ -27,8 +27,8 @@
       <div class="flex flex-row justify-between">
         <span class="mt-2.5">DoB</span>
         <div class="flex flex-col">
-          <span class="cursor-pointer" @click="sort(1)">asc</span>
-          <span class="cursor-pointer" @click="sort(-1)">dsc</span>
+          <span class="cursor-pointer" @click="sort(1)"><font-awesome-icon icon="fa-solid fa-arrow-up-wide-short" /></span>
+          <span class="cursor-pointer" @click="sort(-1)"><font-awesome-icon icon="fa-solid fa-arrow-down-wide-short" /></span>
         </div>
       </div>
     </th>
@@ -36,8 +36,8 @@
       <div class="flex flex-row justify-between">
         <span class="mt-2.5">Municipality</span>
         <div class="flex flex-col">
-          <span class="cursor-pointer" @click="sort(1)">asc</span>
-          <span class="cursor-pointer" @click="sort(-1)">dsc</span>
+          <span class="cursor-pointer" @click="sort(1)"><font-awesome-icon icon="fa-solid fa-arrow-up-wide-short" /></span>
+          <span class="cursor-pointer" @click="sort(-1)"><font-awesome-icon icon="fa-solid fa-arrow-down-wide-short" /></span>
         </div>
       </div>
     </th>

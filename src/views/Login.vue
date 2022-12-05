@@ -4,9 +4,12 @@
       <div class="container text-center mx-auto">
         <div class="mx-auto m-44">
           <form action="" class="">
-            <span class="text-2xl font-semibold">
+            <div class="flex flex-row justify-center items-center">
+              <font-awesome-icon icon="fa-solid fa-users" class="w-8 h-8 mr-2" />
+              <span class="text-2xl font-semibold">
               Student Information System
             </span>
+            </div>
             <div class="mt-4">
               <div class="flex flex-row justify-center">
                 <h1>Username:</h1>
